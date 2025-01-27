@@ -5,96 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aalok Dhonju Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
-
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <body>
-        <nav id="main-navigation">
-          <div class="logo">Aalok Dhonju</div>
-          <div>
+    <nav id="main-navigation">
+        <div class="logo">Aalok Dhonju</div>
+        <div>
             <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
-        </nav>
-        <nav id="hamburger-nav">
-          <div class="logo">Aalok Dhonju</div>
-          <div class="hamburger-menu">
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aalok Dhonju</div>
+        <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-              <span></span>
-              <span></span>
-              <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="menu-links">
-              <li><a href="#about" onclick="toggleMenu()">About</a></li>
-              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
-          </div>
-        </nav>
-        <main>
-            <section id="profile">
-                <div class="section-pic-container">
+        </div>
+    </nav>
+    <main>
+        <!-- Profile Section -->
+        <section id="profile">
+            <div class="section-pic-container">
                 <img src="./assets/aalok-picture.png" alt="Aalok Dhonju profile picture" />
-                </div>
-                <div class="section-text">
+            </div>
+            <div class="section-text">
                 <p class="section-text-p1">Hello, I'm</p>
                 <h1 class="title">Aalok Dhonju</h1>
-                <p class="section-text-p2">Student Researcher</p>
+                <p class="section-text-p2">Student Researcher & Tech Enthusiast</p>
                 <div class="btn-container">
-                    <button
-                    class="btn btn-color-2"
-                    onclick="window.open('./assets/Aalok-Resume.pdf')"
-                    >
-                    Download CV
+                    <button class="btn btn-color-1" onclick="window.open('./assets/aalok-resume.pdf')">
+                        Download CV
                     </button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                    Contact Info
+                    <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                        Contact Info
                     </button>
                 </div>
                 <div id="socials-container">
-                    <img
-                    src="./assets/linkedin.png"
-                    alt="My LinkedIn profile"
-                    class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/aalok-dhonju/'"
-                    />
-                    <img
-                    src="./assets/github.png"
-                    alt="My Github profile"
-                    class="icon"
-                    onclick="location.href='https://github.com/Aalokzz'"
-                    />
-                    <img
-                        src="./assets/email.png"
-                        alt="My Email"
-                        class="icon"
-                        onclick="window.location.href='mailto:aalok.dhonju@gmail.com'"
-                    />
+                    <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://linkedin.com/'" />
+                    <img src="./assets/github.png" alt="Github" class="icon" onclick="location.href='https://github.com/'" />
+                    <img src="./assets/email.png" alt="Email" class="icon" onclick="window.location.href='mailto:aalok.dhonju@gmail.com'" />
                 </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2><img src="./assets/education.png" alt="Education Icon" /> Education</h2>
+            <div class="education-details">
+                <img src="./assets/aalok-picture-2.jpeg" alt="Aalok at University" />
+                <div class="education-text">
+                    <h3>Northern Kentucky University</h3>
+                    <p><strong>Bachelor of Science in Computer Information Technology</strong> (Expected Graduation May 2026)</p>
+                    <ul>
+                        <li>Network and System Administration Track | Minor in Health Informatics and Information Security</li>
+                        <li><strong>Cumulative GPA:</strong> 3.925/4.00</li>
+                        <li><strong>Honors and Awards:</strong> US Bank Cyber Security Scholarship, COI President's List 3x, COI Dean's List, Haile COB Dean's List, Haile Enrichment Fund, International Merit Scholarship, EDGE and EDGE+ Scholarship, Fidelity NKU Hackathon Winner (2024)</li>
+                    </ul>
                 </div>
-            </section>
-            
-        </main> 
-        <footer>       
-            <nav>
-              <div class="nav-links-container">
-                <ul class="nav-links">
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact">Contact</a></li>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2><img src="./assets/experience.png" alt="Experience Icon" /> Experience</h2>
+            <div class="experience-details">
+                <h3>Chartwells Higher Ed</h3>
+                <p><strong>Intern</strong> (October 2023 - Present)</p>
+                <ul>
+                    <li>Administered NKU Dine-on-Campus website, responsible for implementing changes to enhance UX</li>
+                    <li>Develop and analyze marketing data, leveraging analytics to improve digital outreach and engagement</li>
+                    <li>Manage digital marketing displays using Wand Digital and optimize social media strategies with Sprout Social</li>
                 </ul>
-              </div>
-            </nav>
+
+                <h3>Northern Kentucky University</h3>
+                <p><strong>Student Researcher</strong> (May 2024 - December 2024)</p>
+                <ul>
+                    <li>Conducted research on Secure Service Provenance in Edge Computing frameworks, guided by Dr. Rasib Khan</li>
+                    <li>Ensured data integrity and authenticity in decentralized systems using advanced cryptographic methods and blockchain technology</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2><img src="./assets/project.png" alt="Projects Icon" /> Projects</h2>
+            <div class="project-container">
+                <div class="project-box">
+                    <h3>Secure Service Provenance in Edge Computing</h3>
+                    <p>Researched and implemented secure data transmission protocols in edge computing environments.</p>
+                </div>
+                <div class="project-box">
+                    <h3>Automated Marketing Emails</h3>
+                    <p>Automated the process of sending marketing and newsletter emails using Python and VBA macros.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-details">
+                <div class="contact-icons">
+                    <img src="./assets/linkedin.png" alt="LinkedIn" onclick="location.href='https://linkedin.com/'" />
+                    <img src="./assets/github.png" alt="Github" onclick="location.href='https://github.com/'" />
+                    <img src="./assets/email.png" alt="Email" onclick="window.location.href='mailto:aalok.dhonju@gmail.com'" />
+                    <img src="./assets/phone.png" alt="Phone" onclick="window.location.href='tel:+18599134283'" />
+                </div>
+                <p><strong>Email:</strong> <a href="mailto:dhonjua1@mymail.nku.edu">dhonjua1@mymail.nku.edu</a></p>
+                <p><strong>Phone:</strong> +1 (859) 913-4283</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aalok-dhonju/">linkedin.com/in/aalok-dhonju</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
             <p>Copyright &copy; 2025 Aalok Dhonju</p>
-        </footer>
-        <script src="script.js"></script>
-      
-    
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
