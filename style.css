@@ -175,10 +175,14 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  /* Remove this line or set it to transparent */
+  /* background-color: white; */
+  /* Make the background transparent to show the body's gradient */
+  background-color: transparent; 
   border-radius: 10px;
   margin: 2rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Change the shadow to a lighter color */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 .section-container {
