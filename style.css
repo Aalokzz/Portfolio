@@ -7,8 +7,14 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #F0F4F8;
-  color: #333;
+  /* Replaces background-color with a linear gradient */
+  background: linear-gradient(to bottom, #1A365D, #000000);
+  /* Ensures the gradient covers the full viewport height */
+  min-height: 100vh;
+  /* Optional: Prevents horizontal scrolling issues */
+  overflow-x: hidden;
+  /* Sets the text color to white for readability on the dark background */
+  color: #fff;
   line-height: 1.6;
 }
 
